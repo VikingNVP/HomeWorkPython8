@@ -25,7 +25,7 @@ def export_data(filename):
 
 # Изменяет информацию из файла
 def edit_data(filename):
-    print("\nПП | ФИО | Телефон")
+    print("\nПорядковый номер | ФИО | Телефон")
     with open(filename, "r", encoding='utf-8') as data:
         tel_book = data.read()
     print(tel_book)
@@ -49,7 +49,7 @@ def edit_data(filename):
 
 # Удаляет информацию из файла
 def delete_data(filename):
-    print("\nПП | ФИО | Телефон")
+    print("\nПорядковый номер | ФИО | Телефон")
     with open(filename, "r", encoding="utf-8") as data:
         tel_book = data.read()
         print(tel_book)
